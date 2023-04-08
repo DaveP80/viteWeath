@@ -2,6 +2,7 @@ import '../style.css'
 import typescriptLogo from '../assets/typescript.svg'
 import { setupCounter } from './counter'
 const { BASE_URL} = import.meta.env;
+const sec = process.env.EXAMPLE
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
@@ -12,6 +13,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
     </a>
     <h1>Vite + TypeScript</h1>
+    <h2>${sec}</h2>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
