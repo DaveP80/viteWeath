@@ -12,6 +12,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
     </a>
     <h1>Vite + TypeScript</h1>
+    <h2>${import.meta.env.EXAMPLE}</h2>
+    <h2>${import.meta.env.TWO}</h2>
     <div class="card">
       <button id="counter" type="button"></button>
     </div>
