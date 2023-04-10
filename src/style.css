@@ -36,6 +36,14 @@ h1 {
   line-height: 1.1;
 }
 
+h2 {
+  display: block;
+}
+
+input {
+  font-size: 1em;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
